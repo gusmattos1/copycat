@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: #0BD096;
+  color: white;
+  padding: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.top-menu {
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  float: left;
+  margin: 0;
+  line-height: 60px;
+}
+
+.nav-bar {
+  float: right;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 5px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.wellcome {
+  background-color: #26547C;
+  overflow: hidden;
+}
+
+.wellcome-image {
+  width: 60%;
+  float: left;
+}
+
+.wellcome-text {
+  width: 40%;
+  float: right;
+  color: white;
+}
+.wellcome-text h2{
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.cats{
+  background-color: #FFD166;
+  padding: 20px;
+}
+h3{
+  font-size: 25px;
+}
+
+.products{
+  background-color: #F2F2F2;
+  padding: 20px;
+}
+
+.products img{
+border: 2px solid black;}
