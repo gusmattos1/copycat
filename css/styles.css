@@ -11,7 +11,7 @@ img {
 header {
   background-color: #0BD096;
   color: white;
-  padding: 20px;
+  padding: 10px;
   overflow: hidden;
   text-align: center;
 }
@@ -21,7 +21,7 @@ header {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 20px;
   float: left;
   margin: 0;
   line-height: 60px;
@@ -72,7 +72,34 @@ h3{
 .products{
   background-color: #F2F2F2;
   padding: 20px;
+  overflow: auto;
 }
 
+.products-images li{
+  float: left;
+  width: 33%;
+  padding: 15px;
+
+}
 .products img{
-border: 2px solid black;}
+border: 4px solid grey;
+}
+
+.last-text{
+  background-color: #26547C;
+  color: white;
+  padding: 20px;
+
+}
+.last-fun, .last-meow, .last-value{
+  text-align: center;
+  color: mediumvioletred;
+  width: 33%;
+  text-transform: uppercase;
+  float: left;
+}
+footer{
+  background-color: #06D6A6;
+  padding: 1px;
+  text-align: right;
+}
